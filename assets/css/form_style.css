@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+#radio{
+		padding-bottom:10px;
+		color:white;
+		font-size:25px;	
+        
+	}
+td {
+    padding-bottom:10px;
+		color:white;
+		font-size:30px;	
+        
+	}
+    #black{
+        padding-bottom:10px;
+		color:white;
+		font-size:20px;
+    }
+	button{
+		margin-top:10px;
+        margin-left: auto;
+        margin-right: auto;
+		background-color:#337dff;
+		border-radius:10px;
+		font-size:24px;
+		
+		
+				
+	}
+	.user__title{
+		color:#ffffff;
+        font-family: 'Dancing Script', cursive;
+        margin-top: 150px;
+	}
+    input[type="radio"] {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.8);
+    margin-right: 10px;
+}
+
+    input[type="checkbox"] {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.8);
+    margin-right: 10px;
+}
+.my-auto {
+    margin-bottom: auto!important;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: linear-gradient(to bottom,#adb1e63b 0%, #9ea9b526 100%);
+    width: 720px;
+}
+#about{
+    background-image: url(../img/header4.jpg);
+    background-size: cover;
+}
+#timing{
+    display: block;
+    width: 180px;
+    height: 10px;
+    padding: 20px;
+    font-family: $font-family;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    transition: 0.3s;
+   
+}
+#tsize td{
+    font-size:20px;
+}
+.table td{
+    font-size:20px;
+}
+
+    
+    

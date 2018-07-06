@@ -5,8 +5,53 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: font-family: 'Dancing Script', cursive;
+  
+
 }
+@keyframes NO {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@keyframes arrive {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 50px, 0);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes move {
+    0% {
+        background-position: 0 0
+    }
+
+    50% {
+        background-position: 100% 0
+    }
+
+    100% {
+        background-position: 0 0
+    }
+}
+
 
 hr {
   max-width: 50px;
@@ -102,7 +147,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-  font-size: .9rem;
+  font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase;
   color: #212529;
@@ -167,15 +212,13 @@ img::-moz-selection {
 }
 
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
-  background-color:#CCC;
-  background-image: url(../img/header3.jpg);
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  
+    
+    background-size: 200% 100% !important;
+    animation: move 15s ease infinite;
+    transform: translate3d(0, 0, 0);
+    background-image: url(../img/header.jpg);
+    height: 100vh
 }
 
 header.masthead hr {

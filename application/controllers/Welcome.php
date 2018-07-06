@@ -20,6 +20,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('index');
+		 $this->session->sess_destroy();
+         $this->load->view('index');
     } 
 }

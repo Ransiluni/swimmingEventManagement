@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <!--<pre><link rel="icon" href="<?php echo base_url('assets/img/logo.fw') ?>"></pre>-->
 
-    <title>Zwemmen Evet Management</title>
+    <title>Zwemmen Event Management</title>
 
     <!-- Bootstrap core CSS -->
    
@@ -25,7 +25,8 @@
     <link href="<?php echo base_url('assets/vendor/magnific-popup/magnific-popup.css') ?>"  rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="<?php echo base_url('assets/css/creative.min.css') ?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/creative.css') ?>" rel="stylesheet">
+    
 
   </head>
 
@@ -44,7 +45,7 @@
               <a class="nav-link js-scroll-trigger" href="http://localhost/website/functionality/register">Register</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">LogIn</a>
+              <a class="nav-link js-scroll-trigger" href="http://localhost/website/login/login_main">LogIn</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">ContactUs</a>
@@ -55,16 +56,16 @@
     </nav>
 
     <header class="masthead text-center text-white d-flex">
-      <div class="container my-auto">
+      <div class="container my-auto"  style="color:white;  background: linear-gradient(to bottom,rgba(32, 50, 91, 0.28) 0%, rgba(4, 6, 25, 0.82) 100%);">
         <div class="row">
-          <div class="col-lg-10 mx-auto">
+          <div class="col-lg-10 mx-auto" >
             <h1 class="text-uppercase">
               <strong>Zwemmen Event Management System</strong>
             </h1>
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5" style="color:white;  background-color:black;"><b>Are you worried about organizing and handling the event?<br>
+            <p class="text-faded mb-5" style="color:white; font-size:21px;">Are you worried about organizing and handling the event?<br>
             Do you want to get details of the events being organized?<br>
             This is the best solution. Register and experince the benifits.</b></p>
             
@@ -80,7 +81,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Feel free to contact s and clarrify your doubts!</h2>
+            <h2 class="section-heading">Feel free to contact us and clarrify your doubts!</h2>
             <hr class="my-4">
         </div>
         </div>
@@ -92,7 +93,7 @@
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
-              <a href="mailto:your-email@your-domain.com">abc@gmail.com</a>
+              <a href="mailto:your-email@your-domain.com">zwemmeneventmanager@gmail.com</a>
             </p>
           </div>
         </div>
